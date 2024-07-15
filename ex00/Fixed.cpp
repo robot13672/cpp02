@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Fixed.cpp                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By:  ikhristi <ikhristi@student.42wolfsburg    +#+  +:+       +#+        */
+/*   By: khristi@student.42wolfsburg.de <ikhrist    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/10 21:32:03 by  ikhristi         #+#    #+#             */
-/*   Updated: 2024/06/11 13:43:53 by  ikhristi        ###   ########.fr       */
+/*   Updated: 2024/07/11 12:38:54 by khristi@stu      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,10 +29,10 @@ int Fixed::getRawBits(void) const
     return (fixed);
 }
 
-Fixed::Fixed(const Fixed &other)
+Fixed::Fixed(const Fixed &other) 
 {
     std::cout << "Copy constructor called" << std::endl;
-    *this = other;
+    fixed = other.fixed;
 }
 
 void Fixed::setRawBits( int const raw)

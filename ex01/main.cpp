@@ -3,20 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By:  ikhristi <ikhristi@student.42wolfsburg    +#+  +:+       +#+        */
+/*   By: khristi@student.42wolfsburg.de <ikhrist    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/12 15:39:14 by  ikhristi         #+#    #+#             */
-/*   Updated: 2024/06/12 15:42:01 by  ikhristi        ###   ########.fr       */
+/*   Updated: 2024/07/11 12:54:49 by khristi@stu      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Fixed.hpp"
 
-
 int main()
 {
    Fixed a;
-    Fixed const b(10);
+    Fixed const b(1025);
     Fixed const c(42.42f);
     Fixed const d(b);
     
