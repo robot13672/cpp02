@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Fixed.cpp                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By:  ikhristi <ikhristi@student.42wolfsburg    +#+  +:+       +#+        */
+/*   By: khristi@student.42wolfsburg.de <ikhrist    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/12 16:05:34 by  ikhristi         #+#    #+#             */
-/*   Updated: 2024/06/12 16:13:28 by  ikhristi        ###   ########.fr       */
+/*   Updated: 2024/07/15 14:18:42 by khristi@stu      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
